@@ -9,7 +9,7 @@
 
 html,
 body {
-  width: 100%;
+  width: 99.6%;
   height: 100%;
 }
 
@@ -163,12 +163,12 @@ section.menu {
 
 section.menu nav.menunav {
   padding: 3%;
-  font-size: 50px;
+  font-size: 40px;
   letter-spacing: 2px;
 }
 
 section.menu nav.menunav ul li {
-  margin-bottom: 5px;
+  margin-bottom: 15px;
   display: block;
   width: auto;
   line-height: 1.2;
@@ -187,7 +187,7 @@ section.menu nav.menunav ul li span:hover{
 
 section.menu nav.menunav ul li b {
   font-weight: 800;
-  font-size: 80px;
+  font-size: 70px;
 }
 
 section.menu nav.menunav ul li div {
@@ -268,7 +268,6 @@ div.about {
 
 div.about div.mypic {
   padding: 50px;
-  display: inline-block;
 }
 
 div.about div.mypic img {
@@ -278,6 +277,8 @@ div.about div.mypic img {
   box-shadow: 10px 10px 20px black;
   padding: 5px;
   transition: all 0.2s cubic-bezier(0.0, 0.0, 0.2, 1);
+  width: 100%;
+  height: auto;
 }
 
 /* div.about div.mypic img{
@@ -405,7 +406,7 @@ div.label p {
 }
 
 .cone {
-  background: url("../MISC/home.jpg") no-repeat fixed center center;
+  background: url("../MISC/Shot1.jpg") no-repeat fixed center center;
   background-size: cover;
   width: 100px;
   position: absolute;
@@ -505,7 +506,7 @@ div.label p {
 .direction-r .flag:before {
   position: absolute;
   top: 50%;
-  right: -37px;
+  right: -36px;
   content: ' ';
   display: block;
   width: 15px;
@@ -584,6 +585,18 @@ div.label p {
 
 .direction-r .desc {
   margin: 1em 0 0 0.75em;
+}
+
+ul.timeline li:nth-child(1){
+  animation-delay: 0.25s;
+}
+
+ul.timeline li:nth-child(2){
+  animation-delay: 0.5s;
+}
+
+ul.timeline li:nth-child(3){
+  animation-delay: 0.75s;
 }
 
 /* ================ Timeline Media Queries ================ */
@@ -722,26 +735,6 @@ max-width: 660px) {
   animation-delay: 0.8s;
 }
 
-div.project {
-  margin-top: 100px;
-}
-
-div.project div.proj {
-  padding: 20px;
-  text-align: center;
-}
-
-div.project div.proj img {
-  /* border-bottom-right-radius: 0; */
-  width: 100%;
-  border: 2px solid #4c4c4c;
-  box-shadow: 10px 10px 20px black;
-  padding: 5px;
-  width: 500px;
-  transition: all 0.2s cubic-bezier(0.0, 0.0, 0.2, 1);
-  cursor: pointer;
-}
-
 /*MODAL*/
 
 /**
@@ -801,6 +794,7 @@ div.project div.proj img {
 
 .modal__content--active {
   opacity: 1;
+  box-shadow: 10px 10px 20px rgba(0,0,0,0.7);
 }
 
 .modal__close {
@@ -861,6 +855,10 @@ div.project div.proj img {
   background: rgba(0, 0, 0, 0.6);
 }
 
+div.projTab{
+  padding-top: 100px;
+}
+
 /*my stuff*/
 
 div.project {
@@ -869,16 +867,17 @@ div.project {
 }
 
 div.project div.proj {
-  padding: 20px;
   text-align: center;
 }
 
 div.project div.proj img {
   /* border-bottom-right-radius: 0; */
   border: 2px solid #4c4c4c;
-  box-shadow: 10px 10px 20px black;
+  box-shadow: 10px 10px 20px rgba(0,0,0,0.7);
   padding: 5px;
   cursor: pointer;
+  width: 100%;
+  height: auto;
 }
 
 div.divul{
@@ -902,4 +901,80 @@ table.mod-det tr td{
 .linH-2{
   line-height: 2;
   text-align: justify;
+}
+
+@media screen and (max-width: 1650px){
+  html, body {
+    width: 99.5%;
+  }
+  div.intro{
+    font-size: 40px;
+  }
+  div.me{
+    font-size: 25px;
+  }
+  div.me p.myrole{
+    font-size: 13px;
+  }
+  section.menu nav.menunav ul li b{
+    font-size: 50px;
+  }
+  section.menu nav.menunav{
+    font-size: 30px;
+  }
+  section.menu nav.menunav ul li{
+    margin-bottom: 15px;
+  }
+  div.underline{
+    height: 3px;
+  }
+  div.about div.mypic img{
+    width: 75%;
+  }
+  div.about div.myabout{
+    font-size: 25px;
+    margin-top: 12%;
+  }
+  div.about div.myabout p.hi{
+    font-size: 30px;
+  }
+  div.about div.myabout p span.name{
+    font-size: 40px;
+  }
+  div.about div.myabout p.ab{
+    font-size: 20px;
+  }
+  div.details{
+    padding-top: 100px;
+  }
+  div.label{
+    width: 450px;
+    height: 80px;
+    font-size: 25px;
+  }
+  .timeline{
+    font-size: 20px;
+  }
+  div.project{
+    margin-top: 80px;
+  }
+  div.project div.proj img{
+    width: 80%;
+  }
+  div.modal__content h1{
+    font-size: 2rem;
+  }
+  table.mod-det tbody tr td h5{
+    font-size: 1rem;
+  }
+  .mod-img img{
+    width: 40%;
+  }
+  .linH-2 {
+    font-size: 0.9rem;
+    line-height: 1.8;
+  }
+  .modal__dialog{
+    max-width: 1000px;
+  }
 }
