@@ -18,6 +18,22 @@ body {
   background: url("../MISC/shot5.jpg") no-repeat fixed center center;
 }
 
+a.mamama:link {
+  text-decoration: inherit;
+  color: inherit;
+  display:block;
+  width: 100%;
+  height: 100%;
+}
+
+a.mamama:visited {
+  text-decoration: inherit;
+  color: inherit;
+  display:block;
+  width: 100%;
+  height: 100%;
+}
+
 /* section.makeitwhite{
   position: absolute;
   width: 100%;
@@ -263,6 +279,7 @@ div.intro div.quote2 div.underline {
 div.about {
   position: relative;
   padding: 10%;
+  padding-top: 15%;
   height: auto;
   letter-spacing: 1px;
 }
@@ -412,6 +429,7 @@ div.label p {
   position: absolute;
   height: 100px;
   display: inline-block;
+  display: none;
   transform: translateX(-50px) rotateZ(45deg);
 }
 
