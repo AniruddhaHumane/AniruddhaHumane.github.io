@@ -992,6 +992,10 @@ table.mod-det tr td{
   div.me p.myrole{
     font-size: 10px;
   }
+  #menu-toggle{
+    top: 10px;
+    right: 10px;
+  }
   section.menu nav.menunav ul li b{
     font-size: 40px;
   }
@@ -1031,7 +1035,7 @@ table.mod-det tr td{
     height: 400px;
   }
   .timeline{
-    font-size: 16px;
+    font-size: 17px;
   }
   div.project{
     margin-top: 50px;
