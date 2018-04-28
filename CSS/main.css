@@ -277,7 +277,6 @@ div.about div.mypic img {
   box-shadow: 10px 10px 20px black;
   padding: 5px;
   transition: all 0.2s cubic-bezier(0.0, 0.0, 0.2, 1);
-  width: 100%;
   height: auto;
 }
 
@@ -973,6 +972,88 @@ table.mod-det tr td{
   .linH-2 {
     font-size: 0.9rem;
     line-height: 1.8;
+  }
+  .modal__dialog{
+    max-width: 1000px;
+  }
+}
+
+@media screen and (max-width: 1400px){
+  html, body {
+    width: 99.4%;
+  }
+  div.intro{
+    font-size: 30px;
+  }
+  div.me{
+    font-size: 20px;
+  }
+  div.me p.myrole{
+    font-size: 10px;
+  }
+  section.menu nav.menunav ul li b{
+    font-size: 40px;
+  }
+  section.menu nav.menunav{
+    font-size: 25px;
+  }
+  div.about div.mypic img{
+    width: 80%;
+  }
+  div.about div.myabout{
+    font-size: 20px;
+    margin-top: 12%;
+  }
+  div.about div.myabout p.hi{
+    font-size: 25px;
+  }
+  div.about div.myabout p span.name{
+    font-size: 35px;
+  }
+  div.about div.myabout p.ab{
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  div.details{
+    padding-top: 100px;
+  }
+  div.label{
+    width: 350px;
+    height: 60px;
+    font-size: 19px;
+  }
+  .cone{
+    display: none;
+  }
+  .pentagon {
+    width: 400px;
+    height: 400px;
+  }
+  .timeline{
+    font-size: 16px;
+  }
+  div.project{
+    margin-top: 50px;
+  }
+  div.project div.proj img{
+    width: 80%;
+  }
+  div.modal__content h1{
+    font-size: 1.7rem;
+  }
+  div.divul{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  table.mod-det tbody tr td h5{
+    font-size: 0.9rem;
+  }
+  .mod-img img{
+    width: 35%;
+  }
+  .linH-2 {
+    font-size: 0.85rem;
+    line-height: 1.7;
   }
   .modal__dialog{
     max-width: 1000px;

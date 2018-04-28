@@ -105,6 +105,9 @@ $(".pentagon").each(function(index){
   ctx.canvas.width = width;
   ctx.canvas.height = height;
   ctx.font="bolder 20px 'Raleway'";
+  if($(window).width()<1400){
+    ctx.font="bolder 15px 'Raleway'";
+  }
   ctx.textAlign="center";
 
   /*** LABEL ***/
@@ -113,6 +116,9 @@ $(".pentagon").each(function(index){
   ctx.fillText(skills[pentagonIndex].header, width/2, 15);
 
   ctx.font="bolder 15px Raleway";
+  if($(window).width()<1400){
+    ctx.font="bolder 12px 'Raleway'";
+  }
 
   /*** PENTAGON BACKGROUND ***/
   for (var i = 0; i < sides; i++) {
