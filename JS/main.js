@@ -388,7 +388,7 @@ $('a[href*="#"]')
         setTimeout(() => {
 
 
-          if ($(this).prop("href").split("#")[1] == "home" || $(this).prop("href").split("#")[1] == "about") {
+          if ($(this).prop("href").split("#")[1] == "home") {
             $('html, body').animate({
               scrollTop: target.offset().top
             }, 1000, function () {
