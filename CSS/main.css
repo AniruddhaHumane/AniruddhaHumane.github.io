@@ -22,7 +22,7 @@ body {
 a.mamama:link {
   text-decoration: inherit;
   color: inherit;
-  display:block;
+  display: block;
   width: 100%;
   height: 100%;
 }
@@ -30,7 +30,7 @@ a.mamama:link {
 a.mamama:visited {
   text-decoration: inherit;
   color: inherit;
-  display:block;
+  display: block;
   width: 100%;
   height: 100%;
 }
@@ -213,7 +213,7 @@ section.menu nav.menunav ul li div {
   width: 5%;
 }
 
-p{
+p {
   margin-bottom: 0;
 }
 
@@ -280,7 +280,7 @@ div.intro div.quote2 div.underline {
 div.about {
   position: relative;
   padding: 10%;
-  padding-top: 15%;
+  padding-top: 13%;
   height: auto;
   letter-spacing: 1px;
 }
@@ -410,7 +410,7 @@ div.about div.myabout p.nanana {
   }
 }
 
-.fadeOutLeft{
+.fadeOutLeft {
   -webkit-animation-name: fadeOutLeft;
   animation-name: fadeOutLeft;
 }
@@ -458,7 +458,7 @@ div.label {
   line-height: 3.3;
 }
 
-.edulbl{
+.edulbl {
   opacity: 0;
 }
 
@@ -636,7 +636,7 @@ div.label p {
   background: rgb(248, 248, 248);
 }
 
-.nomrg{
+.nomrg {
   margin: 0;
 }
 
@@ -651,17 +651,17 @@ div.label p {
   margin: 1em 0 0 0.75em;
 }
 
-ul.timeline li:nth-child(1){
+ul.timeline li:nth-child(1) {
   opacity: 0;
   animation-delay: 0.25s;
 }
 
-ul.timeline li:nth-child(2){
+ul.timeline li:nth-child(2) {
   opacity: 0;
   animation-delay: 0.5s;
 }
 
-ul.timeline li:nth-child(3){
+ul.timeline li:nth-child(3) {
   opacity: 0;
   animation-delay: 0.75s;
 }
@@ -673,12 +673,9 @@ ul.timeline li:nth-child(3){
     width: 100%;
     padding: 4em 0 1em 0;
   }
-
   .direction-r .desc {
     margin: 0 auto;
   }
-
-
   .timeline li {
     padding: 2em 0;
   }
@@ -770,7 +767,7 @@ max-width: 660px) {
 
 /*SKILLS*/
 
-.skllbl{
+.skllbl {
   opacity: 0;
 }
 
@@ -804,7 +801,7 @@ max-width: 660px) {
   opacity: 0;
 }
 
-.zoomIn{
+.zoomIn {
   opacity: 1;
 }
 
@@ -822,7 +819,7 @@ max-width: 660px) {
 
 /*MODAL*/
 
-.projlbl{
+.projlbl {
   opacity: 0;
 }
 
@@ -883,7 +880,7 @@ max-width: 660px) {
 
 .modal__content--active {
   opacity: 1;
-  box-shadow: 10px 10px 20px rgba(0,0,0,0.7);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.7);
 }
 
 .modal__close {
@@ -944,38 +941,38 @@ max-width: 660px) {
   background: rgba(0, 0, 0, 0.6);
 }
 
-div.projTab{
+div.projTab {
   padding-top: 100px;
 }
 
 /*my stuff*/
 
-.AniProj div.project:nth-child(1) div:nth-child(1) div.proj img{
+.AniProj div.project:nth-child(1) div:nth-child(1) div.proj img {
   opacity: 0;
   animation-delay: 0s;
 }
 
-.AniProj div.project:nth-child(1) div:nth-child(2) div.proj img{
+.AniProj div.project:nth-child(1) div:nth-child(2) div.proj img {
   opacity: 0;
   animation-delay: 0.2s;
 }
 
-.AniProj div.project:nth-child(1) div:nth-child(3) div.proj img{
+.AniProj div.project:nth-child(1) div:nth-child(3) div.proj img {
   opacity: 0;
   animation-delay: 0.4s;
 }
 
-.AniProj div.project:nth-child(2) div:nth-child(1) div.proj img{
+.AniProj div.project:nth-child(2) div:nth-child(1) div.proj img {
   opacity: 0;
   animation-delay: 0.6s;
 }
 
-.AniProj div.project:nth-child(2) div:nth-child(2) div.proj img{
+.AniProj div.project:nth-child(2) div:nth-child(2) div.proj img {
   opacity: 0;
   animation-delay: 0.8s;
 }
 
-.AniProj div.project:nth-child(2) div:nth-child(3) div.proj img{
+.AniProj div.project:nth-child(2) div:nth-child(3) div.proj img {
   opacity: 0;
   animation-delay: 1.0s;
 }
@@ -992,14 +989,14 @@ div.project div.proj {
 div.project div.proj img {
   /* border-bottom-right-radius: 0; */
   border: 2px solid #4c4c4c;
-  box-shadow: 10px 10px 20px rgba(0,0,0,0.7);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.7);
   padding: 5px;
   cursor: pointer;
   width: 95%;
   height: auto;
 }
 
-div.divul{
+div.divul {
   height: 2px;
   width: 100%;
   background: white;
@@ -1007,273 +1004,402 @@ div.divul{
   margin-bottom: 20px;
 }
 
-table.mod-det tr td{
+table.mod-det tr td {
   padding-left: 10px;
 }
 
-.mod-img{
+.mod-img {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-.linH-2{
+.linH-2 {
   line-height: 2;
   text-align: justify;
 }
 
 /*Experience*/
-div.explbl{
+
+div.explbl {
   opacity: 0;
 }
 
 /*Contact*/
 
-div.conlbl{
+div.conlbl {
   opacity: 0;
 }
 
-div.cont{
+div.cont {
   margin-top: 150px;
   margin-bottom: 100px;
 }
 
-div.aaaa{
+div.aaaa {
   text-align: center;
   margin: 50px;
 }
 
-table.aaaa2{
+table.aaaa2 {
   text-align: left;
   margin: 0 auto;
 }
 
-table.aaaa2 td{
+table.aaaa2 td {
   padding: 20px;
 }
 
 table.aaaa2 a {
   text-decoration: inherit;
   color: white;
-  display:block;
+  display: block;
 }
 
-table.aaaa2 i{
+table.aaaa2 i {
   opacity: 0;
   animation-delay: 0.7s;
 }
 
-table.aaaa2 h4{
+table.aaaa2 h4 {
   opacity: 0;
   animation-delay: 0.8s;
 }
 
-
-div.aaaa div a i span{
+div.aaaa div a i span {
   font-size: 25px;
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
-i{
+i {
   color: #eee;
 }
 
-div.cont div i{
+div.cont div i {
   opacity: 0;
 }
 
-div.cont div:nth-child(4) i{
+div.cont div:nth-child(4) i {
   animation-delay: 0.1s;
 }
 
-div.cont div:nth-child(5) i{
+div.cont div:nth-child(5) i {
   animation-delay: 0.2s;
 }
 
-div.cont div:nth-child(6) i{
+div.cont div:nth-child(6) i {
   animation-delay: 0.3s;
 }
 
-div.cont div:nth-child(7) i{
+div.cont div:nth-child(7) i {
   animation-delay: 0.4s;
 }
 
-div.cont div:nth-child(8) i{
+div.cont div:nth-child(8) i {
   animation-delay: 0.5s;
 }
 
-div.cont div:nth-child(9) i{
+div.cont div:nth-child(9) i {
   animation-delay: 0.6s;
 }
 
-@media screen and (max-width: 1650px){
-  html, body {
+@media screen and (max-width: 1650px) {
+  html,
+  body {
     width: 99.5%;
   }
-  div.intro{
+  div.intro {
     font-size: 40px;
   }
-  div.me{
+  div.me {
     font-size: 25px;
   }
-  div.me p.myrole{
+  div.me p.myrole {
     font-size: 13px;
   }
-  section.menu nav.menunav ul li b{
+  section.menu nav.menunav ul li b {
     font-size: 50px;
   }
-  section.menu nav.menunav{
+  section.menu nav.menunav {
     font-size: 30px;
   }
-  section.menu nav.menunav ul li{
+  section.menu nav.menunav ul li {
     margin-bottom: 15px;
   }
-  div.underline{
+  div.underline {
     height: 3px;
   }
-  div.about div.mypic img{
+  div.about div.mypic img {
     width: 75%;
   }
-  div.about div.myabout{
+  div.about div.myabout {
     font-size: 25px;
     margin-top: 12%;
   }
-  div.about div.myabout p.hi{
+  div.about div.myabout p.hi {
     font-size: 30px;
   }
-  div.about div.myabout p span.name{
+  div.about div.myabout p span.name {
     font-size: 40px;
   }
-  div.about div.myabout p.ab{
+  div.about div.myabout p.ab {
     font-size: 20px;
   }
-  div.details{
+  div.details {
     padding-top: 100px;
   }
-  div.label{
+  div.label {
     width: 450px;
     height: 80px;
     font-size: 25px;
   }
-  .timeline{
+  .timeline {
     font-size: 20px;
   }
-  div.project{
+  div.project {
     margin-top: 80px;
   }
-  div.project div.proj img{
+  div.project div.proj img {
     width: 80%;
   }
-  div.modal__content h1{
+  div.modal__content h1 {
     font-size: 2rem;
   }
-  table.mod-det tbody tr td h5{
+  table.mod-det tbody tr td h5 {
     font-size: 1rem;
   }
-  .mod-img img{
+  .mod-img img {
     width: 40%;
   }
   .linH-2 {
     font-size: 0.9rem;
     line-height: 1.8;
   }
-  .modal__dialog{
+  .modal__dialog {
     max-width: 1000px;
   }
 }
 
-@media screen and (max-width: 1400px){
-  html, body {
+@media screen and (max-width: 1400px) {
+  html,
+  body {
     width: 99.4%;
   }
-  div.intro{
+  div.intro {
     font-size: 30px;
   }
-  div.me{
+  div.me {
     font-size: 20px;
   }
-  div.me p.myrole{
+  div.me p.myrole {
     font-size: 10px;
   }
-  #menu-toggle{
+  #menu-toggle {
     top: 10px;
     right: 10px;
   }
-  section.menu nav.menunav ul li b{
+  section.menu nav.menunav ul li b {
     font-size: 40px;
   }
-  section.menu nav.menunav{
+  section.menu nav.menunav {
     font-size: 25px;
   }
-  div.about div.mypic img{
+  div.about div.mypic img {
     width: 80%;
   }
-  div.about div.myabout{
+  div.about div.myabout {
     font-size: 20px;
     margin-top: 12%;
   }
-  div.about div.myabout p.hi{
+  div.about div.myabout p.hi {
     font-size: 25px;
   }
-  div.about div.myabout p span.name{
+  div.about div.myabout p span.name {
     font-size: 35px;
   }
-  div.about div.myabout p.ab{
+  div.about div.myabout p.ab {
     font-size: 18px;
     line-height: 1.6;
   }
-  div.details{
+  div.details {
     padding-top: 100px;
   }
-  div.label{
+  div.label {
     width: 350px;
     height: 60px;
     font-size: 19px;
   }
-  .cone{
+  .cone {
     display: none;
   }
   .pentagon {
     width: 400px;
     height: 400px;
   }
-  .timeline{
+  .timeline {
     font-size: 17px;
   }
-  div.project{
+  div.project {
     margin-top: 50px;
   }
-  div.project div.proj img{
+  div.project div.proj img {
     width: 80%;
   }
-  div.modal__content h1{
+  div.modal__content h1 {
     font-size: 1.7rem;
   }
-  div.divul{
+  div.divul {
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  table.mod-det tbody tr td h5{
+  table.mod-det tbody tr td h5 {
     font-size: 0.9rem;
   }
-  .mod-img img{
+  .mod-img img {
     width: 35%;
   }
   .linH-2 {
     font-size: 0.85rem;
     line-height: 1.7;
   }
-  .modal__dialog{
+  .modal__dialog {
     max-width: 1000px;
   }
-  div.cont{
+  div.cont {
     margin-top: 100px;
     margin-bottom: 70px;
   }
-  table.aaaa2 td{
+  table.aaaa2 td {
     padding: 15px;
   }
-  table.aaaa2 h4{
+  table.aaaa2 h4 {
     font-size: 20px;
+  }
+  .foot {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  html,
+  body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+  .parallax-container {
+    height: auto;
+  }
+  div.intro {
+    font-size: 30px;
+  }
+  div.quote2 {
+    width: 80%;
+  }
+  section.menu {
+    padding-left: 50px;
+  }
+  div.about div.mypic {
+    padding: 0;
+    text-align: center;
+  }
+  div.about div.myabout p.hi {
+    font-size: 35px;
+  }
+  div.about div.myabout p.nanana {
+    font-size: 30px;
+  }
+  div.landPage {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .content {
+    margin-bottom: 0;
+  }
+  div.label {
+    width: 100%;
+    height: 60px;
+    font-size: 19px;
+  }
+  div.label p {
+    margin-left: 0%;
+  }
+  div.project {
+    margin-top: 0;
+  }
+  .modal__trigger {
+    padding: 20px;
+  }
+  .modal__content {
+    height: auto;
+    padding: 2rem;
+  }
+  div.modal__content h1 {
+    font-size: 1.2rem;
+  }
+  .colon {
+    display: none;
+  }
+  table.mod-det tbody tr td h5 {
+    font-size: 0.8rem;
+  }
+  .mod-img img {
+    width: 100%;
+  }
+  .AniProj {
+    margin-top: 100px;
+  }
+  .direction-l .flag:before,
+  .direction-r .flag:before {
+    top: -15px;
+  }
+  .direction-l .desc,
+  .direction-r .desc {
+    margin-top: 10px;
+  }
+  div.cont {
+    margin-top: 70px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .strange {
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  div.intro {
+    font-size: 25px;
+  }
+  div.me {
+    font-size: 17px;
+  }
+  .pentagon {
+    width: 300px;
+    height: 300px;
+  }
+  table.aaaa2 h4 {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  div.intro {
+    font-size: 22px;
+  }
+  div.me {
+    font-size: 15px;
+  }
+  table.aaaa2 h4 {
+    font-size: 13px;
+  }
+  div.modal__content h1 {
+    font-size: 1rem;
+  }
+  table.mod-det tbody tr td h5 {
+    font-size: 0.7rem;
+  }
+  .linH-2 {
+    font-size: 0.6rem;
+    line-height: 1.7;
   }
 }

@@ -1,3 +1,16 @@
+$(function(){
+  if (navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {
+    $('#ios-notice').removeClass('hidden');
+    $("div#home").height($(window).height()*1.2);
+    // $('.parallax-container').height( $(window).height() | 0 );
+  } else {
+    $(window).resize(function(){
+      var parallaxHeight = Math.max($(window).height()*1.2, 200) | 0;
+      $('.parallax-container').height(parallaxHeight);
+    }).trigger('resize');
+  }
+});
+
 $('#menu-toggle').click(function () {
   $(this).toggleClass('open');
   $(".menu").toggleClass('addmenuani');
