@@ -528,3 +528,4 @@ var about3 = new ScrollMagic.Scene({
   triggerElement: 'div.conlbl',
   reverse:false,
 }).setClassToggle('table.aaaa2 h4','fadeInLeft').addTo(scrollController);
+
