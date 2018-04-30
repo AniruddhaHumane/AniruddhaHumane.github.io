@@ -100,7 +100,7 @@ var hue = [];
 var hueOffset = 25;
 
 for (var s in skills) {
-  $(".content").append('<div class="pentagon animated zoomIn" id="interests"><div class="header"></div><canvas class="pentCanvas"/></div>');
+  $(".content").append('<div class="pentagon animated" id="interests"><div class="header"></div><canvas class="pentCanvas"/></div>');
   hue[s] = (hueOffset + s * 255 / skills.length) % 255;
 }
 
@@ -386,8 +386,6 @@ $('a[href*="#"]')
         // console.log($(this).prop("href").split("#")[1]);
 
         setTimeout(() => {
-
-
           if ($(this).prop("href").split("#")[1] == "home") {
             $('html, body').animate({
               scrollTop: target.offset().top
@@ -425,3 +423,108 @@ $('a[href*="#"]')
       }
     }
   });
+
+var scrollController = new ScrollMagic.Controller();
+var about = new ScrollMagic.Scene({
+  triggerElement: 'div.mypic',
+  reverse:false,
+  offset: -100
+}).setClassToggle('div.mypic','fadeInLeft').addTo(scrollController);
+
+var about1 = new ScrollMagic.Scene({
+  triggerElement: 'div.mypic',
+  reverse:false,
+  offset: -100
+}).setClassToggle('div.about div.myabout p.hi','fadeIn').addTo(scrollController);
+
+var about2 = new ScrollMagic.Scene({
+  triggerElement: 'div.mypic',
+  reverse:false,
+  offset: -100
+}).setClassToggle('div.about div.myabout p.nanana','fadeIn').addTo(scrollController);
+
+var about3 = new ScrollMagic.Scene({
+  triggerElement: 'div.mypic',
+  reverse:false,
+  offset: -100
+}).setClassToggle('div.about div.myabout div','fadeIn').addTo(scrollController);
+
+var about3 = new ScrollMagic.Scene({
+  triggerElement: '#edu',
+  reverse:false,
+}).setClassToggle('div.edulbl','fadeInLeft').addTo(scrollController);
+
+var about3 = new ScrollMagic.Scene({
+  triggerElement: '.timeline.exc',
+  reverse:false,
+}).setClassToggle('.timeline.exc','fadeIn').addTo(scrollController);
+
+var about3 = new ScrollMagic.Scene({
+  triggerElement: 'ul.timeline.exc li',
+  reverse:false,
+}).setClassToggle('ul.timeline.exc li','fadeInUp').addTo(scrollController);
+
+var about3 = new ScrollMagic.Scene({
+  triggerElement: '#skills',
+  reverse:false,
+}).setClassToggle('div.skllbl','fadeInLeft').addTo(scrollController);
+
+var about3 = new ScrollMagic.Scene({
+  triggerElement: 'div.skllbl',
+  reverse:false,
+}).setClassToggle('.pentagon:nth-child(1)','zoomIn').addTo(scrollController);
+
+var about3 = new ScrollMagic.Scene({
+  triggerElement: 'div.skllbl',
+  reverse:false,
+}).setClassToggle('.pentagon:nth-child(2)','zoomIn').addTo(scrollController);
+
+var about3 = new ScrollMagic.Scene({
+  triggerElement: 'div.skllbl',
+  reverse:false,
+}).setClassToggle('.pentagon:nth-child(3)','zoomIn').addTo(scrollController);
+
+var about3 = new ScrollMagic.Scene({
+  triggerElement: '#proje',
+  reverse:false,
+}).setClassToggle('div.projlbl','fadeInLeft').addTo(scrollController);
+
+var about3 = new ScrollMagic.Scene({
+  triggerElement: 'div.AniProj',
+  reverse:false,
+}).setClassToggle('.AniProj div.project div div.proj img','fadeInLeft').addTo(scrollController);
+
+var about3 = new ScrollMagic.Scene({
+  triggerElement: '#exp',
+  reverse:false,
+}).setClassToggle('div.explbl','fadeInLeft').addTo(scrollController);
+
+var about3 = new ScrollMagic.Scene({
+  triggerElement: '.timeline.ex',
+  reverse:false,
+}).setClassToggle('.timeline.ex','fadeIn').addTo(scrollController);
+
+var about3 = new ScrollMagic.Scene({
+  triggerElement: 'ul.timeline.ex li',
+  reverse:false,
+}).setClassToggle('ul.timeline.ex li','fadeInUp').addTo(scrollController);
+
+var about3 = new ScrollMagic.Scene({
+  triggerElement: '#contact',
+  reverse:false,
+}).setClassToggle('div.conlbl','fadeInLeft').addTo(scrollController);
+
+var about3 = new ScrollMagic.Scene({
+  triggerElement: 'div.conlbl',
+  reverse:false,
+}).setClassToggle('div.cont div i','rollIn').addTo(scrollController);
+
+var about3 = new ScrollMagic.Scene({
+  triggerElement: 'div.conlbl',
+  reverse:false,
+}).setClassToggle('table.aaaa2 i','rollIn').addTo(scrollController);
+
+var about3 = new ScrollMagic.Scene({
+  triggerElement: 'div.conlbl',
+  reverse:false,
+}).setClassToggle('table.aaaa2 h4','fadeInLeft').addTo(scrollController);
