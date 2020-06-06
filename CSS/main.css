@@ -540,7 +540,7 @@ div.label p {
 .flag-wrapper {
   position: relative;
   display: inline-block;
-  text-align: center;
+/*   text-align: center; */
 }
 
 .flag {
